@@ -140,15 +140,26 @@ export default function App() {
               holyghostacademy@gmail.com
             </span>
           </div>
-          <div className="flex items-center gap-2 font-mono text-[10px] tracking-wider uppercase">
-            <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            Admissions open for 2026/2027
+          <div className="flex items-center gap-3 font-mono text-[10px] tracking-wider uppercase">
+            <span className="flex items-center gap-1.5">
+              <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+              Admissions open for 2026/2027
+            </span>
+            <span className="text-white/30 hidden sm:inline">•</span>
+            <button
+              onClick={() => handleNavigate("admin")}
+              title="Administrator Portal Login"
+              className="hidden sm:inline-flex items-center gap-1 text-brand-yellow hover:text-white transition-colors cursor-pointer font-bold"
+            >
+              <Lock className="h-3 w-3" />
+              <span>Admin Portal</span>
+            </button>
           </div>
         </div>
       </div>
 
       {/* 2. MAIN HEADER NAVIGATION BAR */}
-      <header className="sticky top-0 bg-white border-b border-slate-100 z-40 shadow-sm no-print">
+      <header className="sticky top-0 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 z-40 shadow-sm no-print">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           
           {/* Logo Brand Brand Section */}
@@ -165,7 +176,7 @@ export default function App() {
               />
             </div>
             <div>
-              <span className="block text-base font-extrabold tracking-tight text-brand-oxblood font-display uppercase sm:text-lg">
+              <span className="block text-base font-extrabold tracking-tight text-brand-oxblood dark:text-brand-yellow font-display uppercase sm:text-lg">
                 HOLY GHOST ACADEMY
               </span>
               <span className="block text-[10px] font-bold tracking-widest text-brand-green font-mono uppercase">
@@ -183,12 +194,26 @@ export default function App() {
                 className={`px-3 py-2 text-xs font-bold uppercase tracking-wider rounded-lg transition-all ${
                   activePage === link.id 
                     ? "bg-brand-green text-white shadow-sm" 
-                    : "text-slate-600 hover:bg-slate-50 hover:text-brand-oxblood"
+                    : "text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 hover:text-brand-oxblood"
                 }`}
               >
                 {link.label}
               </button>
             ))}
+
+            {/* Admin Portal Icon Button (Desktop) */}
+            <button
+              onClick={() => handleNavigate("admin")}
+              title="Administrator Portal"
+              className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold uppercase tracking-wider rounded-lg transition-all ml-1 cursor-pointer border ${
+                activePage === "admin"
+                  ? "bg-brand-oxblood text-white border-brand-oxblood shadow-sm"
+                  : "bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 border-amber-200 dark:border-amber-800/60 hover:bg-amber-100 dark:hover:bg-amber-900/50"
+              }`}
+            >
+              <Lock className="h-3.5 w-3.5 text-amber-600 dark:text-amber-400" />
+              <span>Admin</span>
+            </button>
 
             {/* Global Theme Toggle Button */}
             <button
@@ -202,6 +227,20 @@ export default function App() {
 
           {/* Mobile Hamburg Trigger Controls */}
           <div className="flex items-center gap-2 lg:hidden">
+            {/* Mobile Admin Icon Button */}
+            <button
+              onClick={() => handleNavigate("admin")}
+              title="Administrator Portal"
+              className={`p-2 rounded-lg border transition-all cursor-pointer flex items-center gap-1 text-xs font-bold ${
+                activePage === "admin"
+                  ? "bg-brand-oxblood text-white border-brand-oxblood"
+                  : "bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 border-amber-200 dark:border-amber-800"
+              }`}
+            >
+              <Lock className="h-4 w-4 text-amber-600 dark:text-amber-400" />
+              <span className="hidden sm:inline">Admin</span>
+            </button>
+
             <button
               onClick={toggleTheme}
               title={`Switch to ${theme === "light" ? "Dark Mode" : "Light Mode"}`}
@@ -212,7 +251,7 @@ export default function App() {
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100"
+              className="p-2 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100"
             >
               {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
@@ -227,7 +266,7 @@ export default function App() {
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.2 }}
-              className="border-t border-slate-100 bg-white shadow-lg overflow-hidden lg:hidden"
+              className="border-t border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-lg overflow-hidden lg:hidden"
             >
               <div className="p-4 space-y-1">
                 {navLinks.map((link) => (
@@ -237,13 +276,29 @@ export default function App() {
                     className={`w-full text-left px-4 py-3 text-sm font-bold uppercase tracking-wider rounded-lg transition-all flex items-center justify-between ${
                       activePage === link.id
                         ? "bg-brand-green text-white"
-                        : "text-slate-600 hover:bg-slate-50"
+                        : "text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"
                     }`}
                   >
                     <span>{link.label}</span>
                     <ChevronRight className="h-4 w-4 opacity-50" />
                   </button>
                 ))}
+
+                {/* Admin Portal Drawer Button */}
+                <button
+                  onClick={() => handleNavigate("admin")}
+                  className={`w-full text-left px-4 py-3 text-sm font-bold uppercase tracking-wider rounded-lg transition-all flex items-center justify-between mt-2 border ${
+                    activePage === "admin"
+                      ? "bg-brand-oxblood text-white border-brand-oxblood"
+                      : "bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 border-amber-200 dark:border-amber-800/60 hover:bg-amber-100"
+                  }`}
+                >
+                  <span className="flex items-center gap-2">
+                    <Lock className="h-4 w-4 text-amber-600 dark:text-amber-400" />
+                    <span>Admin Portal</span>
+                  </span>
+                  <ChevronRight className="h-4 w-4 opacity-50" />
+                </button>
               </div>
             </motion.div>
           )}
@@ -306,6 +361,15 @@ export default function App() {
                   {link.label}
                 </button>
               ))}
+              <button
+                onClick={() => handleNavigate("admin")}
+                className={`text-left transition-colors py-0.5 flex items-center gap-1 font-semibold ${
+                  activePage === "admin" ? "text-brand-yellow" : "text-amber-400/90 hover:text-brand-yellow"
+                }`}
+              >
+                <Lock className="h-3 w-3 text-amber-400" />
+                Admin Portal
+              </button>
             </div>
           </div>
 
@@ -356,6 +420,14 @@ export default function App() {
             <span className="hover:text-white cursor-pointer transition-colors">Privacy Policy</span>
             <span>•</span>
             <span className="hover:text-white cursor-pointer transition-colors">Terms of Enrollment</span>
+            <span>•</span>
+            <button
+              onClick={() => handleNavigate("admin")}
+              className="hover:text-brand-yellow cursor-pointer transition-colors flex items-center gap-1 text-slate-400"
+            >
+              <Lock className="h-3 w-3 text-amber-400" />
+              <span>Admin Login</span>
+            </button>
           </div>
         </div>
       </footer>

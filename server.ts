@@ -7,6 +7,7 @@ import "dotenv/config";
 import express from "express";
 import path from "path";
 import fs from "fs";
+import { createServer as createViteServer } from "vite";
 import { initializeApp, getApps, FirebaseApp } from "firebase/app";
 import { getFirestore, Firestore, collection, getDocs, doc, getDoc, setDoc, updateDoc, deleteDoc } from "firebase/firestore";
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
@@ -3564,7 +3565,6 @@ app.get("/api/proxy-image", async (req, res) => {
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
     // Development Mode Vite Server
-    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa"
@@ -3584,9 +3584,5 @@ async function startServer() {
   });
 }
 
-// Only launch standalone listener when not executed inside Vercel serverless environment
-if (!process.env.VERCEL && !process.env.VERCEL_ENV) {
-  startServer();
-}
+startServer();
 
-export default app;

@@ -1,0 +1,15 @@
+{
+  "mode": "local",
+  "firebase": {
+    "apiKey": "",
+    "authDomain": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
+  },
+  "supabase": {
+    "url": "",
+    "serviceRoleKey": ""
+  }
+}

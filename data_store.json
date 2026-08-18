@@ -1,0 +1,988 @@
+{
+  "news": [
+    {
+      "id": "news-1",
+      "title": "Admission Form for 2026/2027 Academic Session Now Available",
+      "summary": "Holy Ghost Academy Awka is pleased to announce that admission application forms for the 2026/2027 academic session are now available.",
+      "content": "We are inviting parents and guardians to secure a bright, moral, and academically outstanding future for their wards by enrolling them in Holy Ghost Academy Secondary School, Kamali Homes Awka. Known for academic excellence, strict moral discipline, state-of-the-art laboratory facilities, and expert tutoring, we offer both Junior and Senior Secondary education.\n\nApplication forms can be purchased at the school administrative portal or directly at the school office. Entrance examination dates will be communicated to all candidates upon successful submission.",
+      "category": "Admissions",
+      "date": "2026-07-01",
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800"
+    },
+    {
+      "id": "news-2",
+      "title": "Holy Ghost Academy Emerges Winner in State-wide Science Quiz Championship",
+      "summary": "Our brilliant SS2 sciences team clinched first place in the annual Anambra State Science & Innovation Competition.",
+      "content": "It was a moment of immense pride as representatives of Holy Ghost Academy Secondary School outclassed students from 25 other secondary schools to win the Anambra State Science Quiz Championship.\n\nThe competition tested participants in advanced Physics, Chemistry, Biology, and Mathematics. Our students demonstrated excellent logical reasoning and comprehensive knowledge, taking home the championship trophy along with academic scholarships.",
+      "category": "Academics",
+      "date": "2026-06-15",
+      "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800"
+    },
+    {
+      "id": "news-3",
+      "title": "Upcoming 15th Inter-House Sports Festival Scheduled for Next Month",
+      "summary": "Prepare for a display of athletic talent, discipline, and sportsmanship at our upcoming Inter-House Sports Competition.",
+      "content": "The management is thrilled to announce the 15th Inter-House Sports Festival. Houses (Red, Green, Blue, and Yellow) are already training intensely for track, field, chess, table tennis, and marching drills.\n\nParents are highly welcome to attend, cheer, and participate in the special Parents' Race. The event aims to foster team-building, active lifestyles, and healthy competition among students.",
+      "category": "Sports",
+      "date": "2026-07-05",
+      "imageUrl": "https://images.unsplash.com/photo-1544698310-74ea9d1c8258?q=80&w=800"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Main School Administrative Block",
+      "category": "academics",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800",
+      "description": "The beautiful serene campus entryway at Holy Ghost Academy, Awka.",
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": "gal-2",
+      "title": "Students Conducting Experiments in the Newly Upgraded Physics Lab",
+      "category": "academics",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800",
+      "description": "Practical interactive physics sessions help students visualize theoretical principles.",
+      "createdAt": "2026-02-15"
+    },
+    {
+      "id": "gal-3",
+      "title": "Annual Inter-House Football Finals",
+      "category": "sports",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1544698310-74ea9d1c8258?q=80&w=800",
+      "description": "Students displaying outstanding skills and team spirit during our sports week.",
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "gal-4",
+      "title": "Valedictory Service and Graduation Ceremony",
+      "category": "graduation",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800",
+      "description": "Our graduates celebrating their academic success with pride.",
+      "createdAt": "2026-07-02"
+    },
+    {
+      "id": "gal-5",
+      "title": "Traditional Dance Presentation during Cultural Day",
+      "category": "cultural",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1532089006045-1b82ad5565c1?q=80&w=800",
+      "description": "Celebrating Nigeria's diverse and beautiful rich heritage.",
+      "createdAt": "2026-05-25"
+    },
+    {
+      "id": "gal-video-1",
+      "title": "Campus Tour & Student Life Documentary",
+      "category": "activities",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "A comprehensive video tour showcasing our state-of-the-art facilities, classrooms, and boarding house.",
+      "createdAt": "2026-04-18"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Physics Laboratory Upgrade",
+      "description": "Full modernization of the Physics Laboratory with modern circuit boards, optic kits, mechanics experiment setups, and digital measurement instruments.",
+      "budget": "₦3,800,000",
+      "startDate": "2026-01-05",
+      "completionDate": "2026-03-10",
+      "progressPercentage": 100,
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800"
+    },
+    {
+      "id": "proj-2",
+      "title": "Library Rehabilitation & Digital E-Catalog System",
+      "description": "Renovating the main study library, adding 5,000 new text volumes, and installing a modern digital terminal station for student e-resource lookups.",
+      "budget": "₦4,500,000",
+      "startDate": "2026-04-01",
+      "completionDate": "2026-07-30",
+      "progressPercentage": 85,
+      "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=800"
+    },
+    {
+      "id": "proj-3",
+      "title": "ICT Centre Development & Computer Upgrades",
+      "description": "Purchasing 40 high-performance computer units, upgrading the high-speed fiber internet feed, and setting up dedicated programming workstation booths.",
+      "budget": "₦7,200,000",
+      "startDate": "2026-05-15",
+      "completionDate": "2026-08-20",
+      "progressPercentage": 65,
+      "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800"
+    },
+    {
+      "id": "proj-4",
+      "title": "Biology Laboratory Upgrade",
+      "description": "Replacing student workbenches, purchasing modern binocular compound microscopes, human skeletal models, and preserved biological specimens.",
+      "budget": "₦3,500,000",
+      "startDate": "2026-06-01",
+      "completionDate": "2026-09-05",
+      "progressPercentage": 40,
+      "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9d39d66e8?q=80&w=800"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "title": "School Prospectus and Admission Guide 2026",
+      "filename": "Holy_Ghost_Academy_Prospectus_2026.pdf",
+      "fileType": "application/pdf",
+      "fileData": "data:application/pdf;base64,JVBERi0xLjQKJ...[Pre-seeded prospectus content placeholder]",
+      "uploadedAt": "2026-07-01"
+    },
+    {
+      "id": "doc-2",
+      "title": "Academic Calendar & Term Activities (Term 3)",
+      "filename": "Academic_Calendar_2025_2026_Term3.pdf",
+      "fileType": "application/pdf",
+      "fileData": "data:application/pdf;base64,JVBERi0xLjQKJ...[Pre-seeded calendar content placeholder]",
+      "uploadedAt": "2026-07-02"
+    }
+  ],
+  "results": [
+    {
+      "id": "res-1",
+      "studentId": "HGASS-2026-001",
+      "regNumber": "REG/2026/001",
+      "studentName": "Chinedu Kenechukwu",
+      "classUnit": "SS1",
+      "session": "2025/2026",
+      "term": "3rd Term",
+      "scores": [
+        {
+          "subject": "Mathematics",
+          "ca1": 18,
+          "ca2": 18,
+          "exam": 54,
+          "total": 90,
+          "grade": "A",
+          "remark": "Excellent"
+        },
+        {
+          "subject": "English Language",
+          "ca1": 15,
+          "ca2": 15,
+          "exam": 52,
+          "total": 82,
+          "grade": "A",
+          "remark": "Excellent"
+        },
+        {
+          "subject": "Physics",
+          "ca1": 17,
+          "ca2": 17,
+          "exam": 52,
+          "total": 86,
+          "grade": "A",
+          "remark": "Excellent"
+        },
+        {
+          "subject": "Chemistry",
+          "ca1": 15,
+          "ca2": 15,
+          "exam": 49,
+          "total": 79,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Biology",
+          "ca1": 14,
+          "ca2": 14,
+          "exam": 46,
+          "total": 74,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Computer Science",
+          "ca1": 18,
+          "ca2": 18,
+          "exam": 54,
+          "total": 90,
+          "grade": "A",
+          "remark": "Excellent"
+        },
+        {
+          "subject": "Agricultural Science",
+          "ca1": 16,
+          "ca2": 16,
+          "exam": 50,
+          "total": 82,
+          "grade": "A",
+          "remark": "Excellent"
+        }
+      ],
+      "totalScore": 583,
+      "averageScore": 83.3,
+      "position": 1,
+      "outOf": 32,
+      "remarks": "Outstanding academic performance! Chinedu continues to lead with excellence, integrity, and discipline. Outstanding results.",
+      "classPlacement": "SS1",
+      "grossTotalMarks": "583 / 700",
+      "gradePoint": "4.71 / 5.00",
+      "terminalAverageScore": "83.3%",
+      "accreditedGradeBracket": "Distinction (A)",
+      "classStanding": "1st out of 32"
+    },
+    {
+      "id": "res-2",
+      "studentId": "HGASS-2026-002",
+      "regNumber": "REG/2026/002",
+      "studentName": "Amarachi Jennifer",
+      "classUnit": "JSS1",
+      "session": "2025/2026",
+      "term": "3rd Term",
+      "scores": [
+        {
+          "subject": "Mathematics",
+          "ca1": 12,
+          "ca2": 12,
+          "exam": 41,
+          "total": 65,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "English Language",
+          "ca1": 14,
+          "ca2": 14,
+          "exam": 44,
+          "total": 72,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Basic Science",
+          "ca1": 15,
+          "ca2": 15,
+          "exam": 47,
+          "total": 77,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Civic Education",
+          "ca1": 17,
+          "ca2": 17,
+          "exam": 51,
+          "total": 85,
+          "grade": "A",
+          "remark": "Excellent"
+        },
+        {
+          "subject": "Computer Science",
+          "ca1": 18,
+          "ca2": 18,
+          "exam": 52,
+          "total": 88,
+          "grade": "A",
+          "remark": "Excellent"
+        },
+        {
+          "subject": "CCA (Creative Arts)",
+          "ca1": 14,
+          "ca2": 14,
+          "exam": 44,
+          "total": 72,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Business Studies",
+          "ca1": 13,
+          "ca2": 13,
+          "exam": 42,
+          "total": 68,
+          "grade": "B",
+          "remark": "Very Good"
+        }
+      ],
+      "totalScore": 527,
+      "averageScore": 75.3,
+      "position": 3,
+      "outOf": 45,
+      "remarks": "A brilliant, disciplined, and focused student. Highly recommended for promotion to JSS2.",
+      "classPlacement": "JSS1",
+      "grossTotalMarks": "527 / 700",
+      "gradePoint": "4.29 / 5.00",
+      "terminalAverageScore": "75.3%",
+      "accreditedGradeBracket": "Very Good (B)",
+      "classStanding": "3rd out of 45"
+    },
+    {
+      "id": "res-3",
+      "studentId": "HGASS-2026-003",
+      "regNumber": "REG/2026/003",
+      "studentName": "Somtochukwu Paul",
+      "classUnit": "SS2",
+      "session": "2025/2026",
+      "term": "3rd Term",
+      "scores": [
+        {
+          "subject": "Mathematics",
+          "ca1": 10,
+          "ca2": 10,
+          "exam": 33,
+          "total": 53,
+          "grade": "C",
+          "remark": "Good"
+        },
+        {
+          "subject": "English Language",
+          "ca1": 11,
+          "ca2": 11,
+          "exam": 38,
+          "total": 60,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Economics",
+          "ca1": 13,
+          "ca2": 13,
+          "exam": 42,
+          "total": 68,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Government",
+          "ca1": 14,
+          "ca2": 14,
+          "exam": 44,
+          "total": 72,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "History",
+          "ca1": 15,
+          "ca2": 15,
+          "exam": 46,
+          "total": 76,
+          "grade": "B",
+          "remark": "Very Good"
+        },
+        {
+          "subject": "Civic Education",
+          "ca1": 15,
+          "ca2": 15,
+          "exam": 40,
+          "total": 70,
+          "grade": "B",
+          "remark": "Very Good"
+        }
+      ],
+      "totalScore": 399,
+      "averageScore": 66.5,
+      "position": 12,
+      "outOf": 38,
+      "remarks": "Good results. With consistent effort in mathematical sciences, Somtochukwu has the capacity to excel even higher.",
+      "classPlacement": "SS2",
+      "grossTotalMarks": "399 / 600",
+      "gradePoint": "3.83 / 5.00",
+      "terminalAverageScore": "66.5%",
+      "accreditedGradeBracket": "Good (C)",
+      "classStanding": "12th out of 38"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "name": "Dr. Forster Anarado",
+      "email": "forsteranarado2003@gmail.com",
+      "phone": "08033123456",
+      "message": "Enquiring about boarding admissions for secondary students.",
+      "createdAt": "2026-07-06T10:00:00Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-1",
+      "name": "Rev. Fr. Dr. Christian Obiezu",
+      "role": "Manager / Administrator",
+      "department": "Administration",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "staff-2",
+      "name": "Mrs. Ngozi Okoye",
+      "role": "Vice Manager (Academics)",
+      "department": "Administration",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "staff-3",
+      "name": "Mr. Bartholomew Nwachukwu",
+      "role": "HOD Sciences & Physics Tutor",
+      "department": "Sciences",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "staff-4",
+      "name": "Mrs. Chiamaka Eze",
+      "role": "English Language Tutor",
+      "department": "Languages",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400",
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "desc": "Laying solid arithmetic, algebraic, and geometric foundations. Crucial for logic building.",
+      "icon": "Binary",
+      "category": "Core STEM",
+      "level": "jss"
+    },
+    {
+      "name": "English Language",
+      "desc": "Developing flawless reading, grammar, creative writing, and spoken English communication.",
+      "icon": "BookOpen",
+      "category": "Languages",
+      "level": "jss"
+    },
+    {
+      "name": "Christian Religious Studies (CRS)",
+      "desc": "Imparting biblical histories, spiritual moral lessons, and character guidance based on Christian principles.",
+      "icon": "HeartHandshake",
+      "category": "Moral/Religious",
+      "level": "jss"
+    },
+    {
+      "name": "Civic Education",
+      "desc": "Teaching national symbols, constitutional rights, civic responsibilities, and values of patriotic citizenship.",
+      "icon": "Landmark",
+      "category": "Arts/Social",
+      "level": "jss"
+    },
+    {
+      "name": "Agricultural Science",
+      "desc": "Introduction to food crop production, soil science, forestry, and modern animal husbandry practices.",
+      "icon": "Globe2",
+      "category": "Vocation",
+      "level": "jss"
+    },
+    {
+      "name": "Physical & Health Education (PHE)",
+      "desc": "Promoting physical fitness, soccer sports safety, personal health hygiene, and first-aid logic.",
+      "icon": "Activity",
+      "category": "Health/Sports",
+      "level": "jss"
+    },
+    {
+      "name": "Cultural & Creative Arts (CCA)",
+      "desc": "Encouraging artistic expression, Nigerian traditional music, fine arts illustration, and theatre crafting.",
+      "icon": "Sparkles",
+      "category": "Creative Arts",
+      "level": "jss"
+    },
+    {
+      "name": "Basic Technology",
+      "desc": "Introduction to technical drawing, wood/metal work, building technology, and engineering principles.",
+      "icon": "Atom",
+      "category": "Core STEM",
+      "level": "jss"
+    },
+    {
+      "name": "Basic Science",
+      "desc": "Exploring biology fundamentals, energy concepts, environmental conservation, and basic physics properties.",
+      "icon": "FlaskConical",
+      "category": "Core STEM",
+      "level": "jss"
+    },
+    {
+      "name": "Business Studies",
+      "desc": "Fundamental introduction to bookkeeping, marketing principles, office practice, and keyboarding skills.",
+      "icon": "Coins",
+      "category": "Commercial",
+      "level": "jss"
+    },
+    {
+      "name": "Computer Science",
+      "desc": "Basic computing theory, keyboard mastery, internet search ethics, and introduction to word processors.",
+      "icon": "Laptop",
+      "category": "Core STEM",
+      "level": "jss"
+    },
+    {
+      "name": "Mathematics",
+      "desc": "Rigorous high-school mathematics covering advanced algebra, trigonometry, statistics, and calculus.",
+      "icon": "Binary",
+      "category": "Core STEM",
+      "level": "ss"
+    },
+    {
+      "name": "Physics",
+      "desc": "Mathematical inquiry into mechanics, heat transfer, optics, waves, and electromagnetism theory.",
+      "icon": "Atom",
+      "category": "Core STEM",
+      "level": "ss"
+    },
+    {
+      "name": "Chemistry",
+      "desc": "Quantitative study of organic reactions, chemical properties, kinetic theory, and laboratory titrations.",
+      "icon": "FlaskConical",
+      "category": "Core STEM",
+      "level": "ss"
+    },
+    {
+      "name": "Biology",
+      "desc": "Comprehensive examination of living organisms, ecology, genetics, physiology, and plant systems.",
+      "icon": "Activity",
+      "category": "Core STEM",
+      "level": "ss"
+    },
+    {
+      "name": "Agricultural Science",
+      "desc": "Advanced agricultural economics, mechanized cropping, soil science, and commercial veterinary farm systems.",
+      "icon": "Globe2",
+      "category": "Vocation",
+      "level": "ss"
+    },
+    {
+      "name": "Computer Science",
+      "desc": "Hands-on coding, algorithms, web development basics, database design, and computer hardware maintenance.",
+      "icon": "Laptop",
+      "category": "Core STEM",
+      "level": "ss"
+    },
+    {
+      "name": "Literature in English",
+      "desc": "Critical analysis of classic prose, drama, African poetry, and deep creative literary evaluation.",
+      "icon": "BookOpen",
+      "category": "Arts/Social",
+      "level": "ss"
+    },
+    {
+      "name": "Government",
+      "desc": "Fostering awareness of political structures, international relations, constitution histories, and civil service.",
+      "icon": "Landmark",
+      "category": "Arts/Social",
+      "level": "ss"
+    },
+    {
+      "name": "Christian Religious Studies (CRS)",
+      "desc": "Comprehensive exploration of old/new testament scriptures, theology, and ethical moral philosophy.",
+      "icon": "HeartHandshake",
+      "category": "Moral/Religious",
+      "level": "ss"
+    },
+    {
+      "name": "History",
+      "desc": "Deep dive into ancient West African kingdoms, colonial timelines, post-independence Nigeria, and global wars.",
+      "icon": "CalendarDays",
+      "category": "Arts/Social",
+      "level": "ss"
+    },
+    {
+      "name": "Civic Education",
+      "desc": "Advanced citizenship concepts, civil advocacy, law enforcement, and human rights empowerment.",
+      "icon": "Landmark",
+      "category": "Arts/Social",
+      "level": "ss"
+    },
+    {
+      "name": "Economics",
+      "desc": "Comprehensive study of microeconomics, inflation curves, financial markets, and national budget math.",
+      "icon": "TrendingUp",
+      "category": "Commercial",
+      "level": "ss"
+    },
+    {
+      "name": "Commerce",
+      "desc": "Focusing on warehousing, transport pathways, marketing psychology, retail chains, and international trade.",
+      "icon": "Coins",
+      "category": "Commercial",
+      "level": "ss"
+    }
+  ],
+  "schoolStats": {
+    "enrolledStudents": "850+",
+    "expertEducators": "45+",
+    "alumniGraduates": "2,400+",
+    "nationalAwards": "18+"
+  },
+  "schoolSocials": {
+    "facebook": "https://facebook.com/holyghostacademy",
+    "twitter": "https://twitter.com/holyghostacademy",
+    "instagram": "https://instagram.com/holyghostacademy",
+    "linkedin": "https://linkedin.com",
+    "whatsapp": "https://wa.me/2349054145339"
+  },
+  "registrations": [
+    {
+      "id": "a5b75089-4b6f-4bba-84fe-c1f8d2403ae1",
+      "username": "HGASS-2024-025",
+      "password": "AMU24-25",
+      "fullName": "AZUBIKE MIRACLE ULOMA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "676d74ed-dbc1-457b-b1f1-5118a45aa331",
+      "username": "HGASS/2021/001",
+      "password": "KMO21-01",
+      "fullName": "KALU MERCY OGOCHUKWU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "2189892e-8454-4821-99c5-f9b3cb66297c",
+      "username": "HGASS/2021/002",
+      "password": "OFC21-02",
+      "fullName": "OLECHUKWU FAVOUR CHIDIMMA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "e45fdc4c-4f80-473a-8d34-3a713408639f",
+      "username": "HGASS/2022/003",
+      "password": "IEA22-03",
+      "fullName": "IFEANYICHUKWU ESTHER AMARACHUKWU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "14cf9bf3-b71d-463f-a906-26950d643ccf",
+      "username": "HGASS/2022/004",
+      "password": "KVC22-04",
+      "fullName": "KALU VICTORY CHINWENDU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "9d5d31ee-d6c0-4338-928a-b0ef7c57ccba",
+      "username": "HGASS/2022/007",
+      "password": "OMJC22-07",
+      "fullName": "OGUJI MARYJANE CHINECHEREM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "50e7ba46-655c-4e47-9b48-b5cd1bf89dba",
+      "username": "HGASS/2022/008",
+      "password": "OMK22-08",
+      "fullName": "OJINKEYA MARVELLOUS KPOBACHUKWU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "f4ab57ab-9218-4d4d-8aaf-aa456917cb5d",
+      "username": "HGASS/2022/009",
+      "password": "OV122-09",
+      "fullName": "ONWE VICTOR IFECHUKWU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fd10188f-5e58-4386-8f04-2fae924c6091",
+      "username": "HGASS/2024/022",
+      "password": "APC24-22",
+      "fullName": "AGAGA PRECIOUS CHIAMAKA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "ecf0b56a-ce86-4447-ad13-23af808262af",
+      "username": "HGASS/2024/023",
+      "password": "ASC24-23",
+      "fullName": "AHAMEFUNA SUCCESS CHIKAMSO",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "74b97936-7a31-4381-b5e9-c4bc28a90523",
+      "username": "HGASS/2024/024",
+      "password": "ASC24-24",
+      "fullName": "ANENE SAMMEL CHIDOZIE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "ce624409-f9ae-43f1-9a61-ccb34bccdaef",
+      "username": "HGASS/2024/026",
+      "password": "CFO24-26",
+      "fullName": "CHUKWUDOZIE FRANCIS ONYDIKACH",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "9a0a7a18-910d-4fd8-abea-ffd96590dcd6",
+      "username": "HGASS/2024/027",
+      "password": "CJ24-27",
+      "fullName": "CLARSON JOY",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "41a43194-d83c-4c14-a05a-47cc9ce0b1ff",
+      "username": "HGASS/2024/028",
+      "password": "EIC24-28",
+      "fullName": "EDEM INNOCENT CHUKWUEMEKA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "5cb2f19e-7051-4bb3-bb09-08da8c723b1f",
+      "username": "HGASS/2024/029",
+      "password": "EMO24-29",
+      "fullName": "EDWIN MIRACLE ONYINYE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "42617004-c440-4faf-910e-9351002c41a1",
+      "username": "HGASS/2024/030",
+      "password": "EFI24-30",
+      "fullName": "EGWUONWU FAVOUR IJEOMA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "54f092e2-826a-4da8-b47b-8509ecb52197",
+      "username": "HGASS/2024/031",
+      "password": "EMN24-31",
+      "fullName": "EZEDIUNOR MARYANN NNEOMA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "2e2a71ea-f976-42cc-b5a7-f555c15db38a",
+      "username": "HGASS/2024/032",
+      "password": "ESC24-32",
+      "fullName": "EZE STELLA CHISOM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "0f1a59f7-dfbf-43b4-8308-42615ec669b6",
+      "username": "HGASS/2024/033",
+      "password": "IHO24-33",
+      "fullName": "IJEZIE HAPPINESS ONWUMUSINACHI",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "20b8606a-ea93-4784-b5ea-e57044a8b6ac",
+      "username": "HGASS/2024/034",
+      "password": "KVO24-34",
+      "fullName": "KALU VICTOR OSINACHUKWU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fe21cb2c-d882-4026-9080-01374f7a4b34",
+      "username": "HGASS/2024/035",
+      "password": "MPI24-35",
+      "fullName": "MMADUABUCHUKWU PRINCESS IFECHUKWU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "c262953f-0926-4824-9cc8-d3f91bd46ee8",
+      "username": "HGASS/2024/036",
+      "password": "NCC24-36",
+      "fullName": "NDUBISI CHARLES CHIMMUMUNANYA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "cf760b7d-7bcb-4920-8e92-1522efd4a97a",
+      "username": "HGASS/2024/037",
+      "password": "NDC24-37",
+      "fullName": "NLEM DESTINY CHIBUKEM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "6729bbb8-66d8-4a1a-8d06-f9c58363d59b",
+      "username": "HGASS/2024/038",
+      "password": "OFC24-38",
+      "fullName": "OGUJI FAITH CHIDMMA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "07149d06-d735-4e01-a765-9cfda3816a2a",
+      "username": "HGASS/2024/039",
+      "password": "OMC24-39",
+      "fullName": "OKAPU MARTIN CHIBUEZE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "4e9e2c69-db45-48f2-be82-0709fd96eac5",
+      "username": "HGASS/2024/040",
+      "password": "POHC24-40",
+      "fullName": "PETER-OKOR HOPE CHINCHEREM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "0478f2fe-239a-4aed-9080-ad2c02e5e60b",
+      "username": "HGASS/2024/041",
+      "password": "RJE24-41",
+      "fullName": "RICHARD JEENNIFER EBERE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "bd641dd1-ab2c-49d6-87f7-a5e60bbadb59",
+      "username": "HGASS/2024/042",
+      "password": "UBC24-42",
+      "fullName": "UMEH BLESSING CHIZARAM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "82165be6-6c0c-4c65-b0db-b7b522d787e4",
+      "username": "HGASS/2024/065",
+      "password": "OD24-65",
+      "fullName": "OLAREWAJU DORA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "84c06299-d084-4d74-bdd6-18c4009a731f",
+      "username": "HGASS/2024/066",
+      "password": "EPC24-66",
+      "fullName": "ETOP PERCIOUS CHIKAMSO",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "1cf46926-84c5-476e-8a38-be56ba219f81",
+      "username": "HGASS/2025/043",
+      "password": "IAC25-43",
+      "fullName": "IGWE ALBERT CHIBUIKEM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "b1ac4e32-8506-4dd7-80fc-6e01ef504312",
+      "username": "HGASS/2025/044",
+      "password": "IAC25-44",
+      "fullName": "IGWE ALFRIED CHIGOZIRIM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fc9174cd-3945-4f01-8127-1021f5d09539",
+      "username": "HGASS/2025/045",
+      "password": "OF25-45",
+      "fullName": "OKPURU FAITH",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "3bb806f7-b67d-4bc8-878d-983f66da0e60",
+      "username": "HGASS/2025/046",
+      "password": "PP25-46",
+      "fullName": "PAUL PAULINUS",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "88fc7150-994f-46ba-80ef-65ced29e91ea",
+      "username": "HGASS/2025/047",
+      "password": "SG25-47",
+      "fullName": "SAMUEL GRACE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "1b1cb02c-1fdf-448d-996f-0e084bdb9e23",
+      "username": "HGASS/2025/048",
+      "password": "ASO25-48",
+      "fullName": "AYIM SUNDAY OLUEBUBE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "c9c1e8db-8235-460c-ad2f-8976dcdf4ff6",
+      "username": "HGASS/2025/049",
+      "password": "ECE25-49",
+      "fullName": "EDEH CHIMUANYA ESTHER",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "99b95475-ae89-4733-baa0-04ddb611a047",
+      "username": "HGASS/2025/050",
+      "password": "OFI25-50",
+      "fullName": "ODUMA FAVOUR IFENYINWA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "eb29f68c-1195-4644-b774-d5b08ce2ad5c",
+      "username": "HGASS/2025/051",
+      "password": "IMC25-51",
+      "fullName": "IFEANYICHUKWU MIRACLE CHUKWUEMEKA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "257e1e39-6670-4967-a63c-41178b8a10c4",
+      "username": "HGASS/2025/052",
+      "password": "ITC25-52",
+      "fullName": "IKECHUKWU TIMOTHY CHIJINDU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "ecbe34d9-0cc3-4e73-b6b7-9e881e065be6",
+      "username": "HGASS/2025/053",
+      "password": "ASC25-53",
+      "fullName": "AMIARA SHEDRACH CHIBUIKE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "5fc6a08f-06e8-4c13-acf7-b7eb7cdf0fb9",
+      "username": "HGASS/2025/054",
+      "password": "ECC25-54",
+      "fullName": "EZE CHRISTABELL CHIAMANDA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "48c37c3c-c7a7-41c4-a4e4-49cec5f16277",
+      "username": "HGASS/2025/055",
+      "password": "OTLO25-55",
+      "fullName": "ONWE THE-LIGHT ONYENATURUCHIM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "b1fc31dc-2b11-42ff-93fc-3868aecb1b6b",
+      "username": "HGASS/2025/056",
+      "password": "GMM25-56",
+      "fullName": "GODWIN MIRACLE MMESOMA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "ef460648-4264-4add-aa45-e149e7bae885",
+      "username": "HGASS/2025/057",
+      "password": "OWC25-57",
+      "fullName": "ODILI WINNER CHIEMERE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "91c8d1dc-dcf1-4d80-b735-74d929dcacde",
+      "username": "HGASS/2025/058",
+      "password": "OEE25-58",
+      "fullName": "ONWUKA EMMANUEL EBUKA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "2ee69da9-3901-4f29-9c0d-dc108e09ebf7",
+      "username": "HGASS/2025/059",
+      "password": "OJC25-59",
+      "fullName": "OGUJI JOY  CHINEMEREM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "71319add-0452-4841-b9e9-b4b3a39b020d",
+      "username": "HGASS/2025/060",
+      "password": "AHA25-60",
+      "fullName": "ANENE HAPPINESS AWURIKA",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "d9d687b6-4b80-4846-a500-a847bf1ef2d2",
+      "username": "HGASS/2025/061",
+      "password": "CSC25-61",
+      "fullName": "CHINWBA SOPHIA CHINECHEREM",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "e088d955-9f15-43e5-a6fb-08bbc5df4dcf",
+      "username": "HGASS/2025/062",
+      "password": "NGC25-62",
+      "fullName": "NWEKE GIFT CHINAZAEKPERE",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "42c138ae-fe6f-4ccb-a02b-02439cfe119f",
+      "username": "HGASS/2025/063",
+      "password": "OGI25-63",
+      "fullName": "OKONKWO GOODLUCK IKECHUKWU",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "a78afd59-bd4e-42cc-9908-1876f2279e53",
+      "username": "HGASS/2025/064",
+      "password": "OEO25-64",
+      "fullName": "OLAREWAJU EMMANUEL OJO",
+      "createdAt": "2026-01-01T00:00:00Z"
+    }
+  ]
+}

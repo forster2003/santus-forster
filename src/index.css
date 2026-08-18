@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-green: #2E7D32;
+  --color-brand-green-hover: #225e25;
+  --color-brand-oxblood: #5C0000;
+  --color-brand-oxblood-hover: #420000;
+  --color-brand-yellow: #FFC107;
+  --color-brand-yellow-hover: #e0a800;
+  
+  --animate-fade-in-up: fade-in-up 0.5s ease-out forwards;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-slate-50 text-slate-800 antialiased selection:bg-brand-green/20 selection:text-brand-green transition-colors duration-200;
+  }
+  
+  html.dark body {
+    @apply bg-slate-950 text-slate-100;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+/* Global Dark Mode Overrides for clean portal theme switching */
+html.dark header {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+html.dark header button:hover:not(.bg-brand-green) {
+  color: #FFC107 !important;
+}
+
+html.dark .bg-white {
+  background-color: #1e293b !important; /* slate-800 */
+  color: #f8fafc !important; /* slate-50 */
+}
+
+html.dark .bg-slate-50 {
+  background-color: #0f172a !important; /* slate-900 */
+  color: #e2e8f0 !important; /* slate-200 */
+}
+
+html.dark .bg-slate-100 {
+  background-color: #1e293b !important; /* slate-800 */
+  color: #f1f5f9 !important; /* slate-100 */
+}
+
+html.dark .bg-slate-100\/60 {
+  background-color: rgba(30, 41, 59, 0.6) !important;
+}
+
+html.dark .border-slate-100,
+html.dark .border-slate-200,
+html.dark .border-slate-300 {
+  border-color: #334155 !important; /* slate-700 */
+}
+
+html.dark .text-slate-900,
+html.dark .text-slate-800,
+html.dark .text-slate-700 {
+  color: #f8fafc !important; /* slate-50 */
+}
+
+html.dark .text-slate-600,
+html.dark .text-slate-500 {
+  color: #94a3b8 !important; /* slate-400 */
+}
+
+html.dark input[type="text"],
+html.dark input[type="password"],
+html.dark input[type="email"],
+html.dark input[type="tel"],
+html.dark input[type="number"],
+html.dark textarea,
+html.dark select {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* Custom print styles to enable professional high-quality report sheets */
+@page {
+  size: A4 portrait;
+  margin: 10mm;
+}
+
+@media print {
+  *, *:before, *:after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  html, body {
+    background-color: white !important;
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  /* Hide non-printable elements */
+  header, footer, nav, button, .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+  
+  .print-card {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border: 2px solid #5C0000 !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    padding: 24px !important;
+    margin: 0 auto !important;
+    page-break-inside: avoid !important;
+    background-color: white !important;
+  }
+
+  /* Hide other cards if a specific target card is selected for printing */
+  body.printing-active .print-card:not(.print-target-active) {
+    display: none !important;
+  }
+}
+
